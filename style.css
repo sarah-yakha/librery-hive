@@ -1,0 +1,94 @@
+ body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,75,1) 41%, rgba(0,212,255,1) 100%);
+   font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  #newBookBtn {
+    width: 150px;
+    height: 45px;
+    color: rgb(21, 60, 23);
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(98, 202, 169);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 25px;
+  }
+  #newBookBtn:hover {
+    background-color: rgb(60, 90, 68);
+    transition: 0.5s;
+    border: 1px solid;
+  }
+   .container h1 {
+    font-size: 38px;
+    font-weight: 700;
+    color: rgb(136, 222, 51);
+   }
+  .container {
+   width: 80%;
+    margin-top: 100px;
+    max-width: 800px;
+    text-align: center;
+  }
+  #addBookForm {
+    margin: 25px;
+  }
+  #title, #author,#pages {
+    font-size: 14px;
+    line-height: 5px;
+    font-weight: 700;
+   height: 30px;
+   background-color: rgb(195, 241, 226);
+  }
+  #submit {
+    height: 40px;
+    font-size: 14px;
+    line-height: 5px;
+    font-weight: 700;
+   height: 30px;
+   color: rgb(120, 125, 130);
+   background-color: rgb(195, 241, 226);
+  }
+  label {
+    font-weight: 700;
+    color: rgb(33, 52, 222);
+    font-size: 14px;
+
+  }
+  .form-container {
+    margin: 20px 0;
+    
+  }
+  
+  #library {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .book {
+    background-color: rgb(195, 241, 226);
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px;
+    width: 250px;
+    text-align: left;
+    font-weight: 700;
+  }
+  
+  .book button {
+    margin-top: 10px;
+    display: block;
+    background-color: aliceblue;
+    font-weight: 700;
+    color: rgb(237, 91, 24);
+  }
+
+ 
